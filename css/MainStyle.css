@@ -1,0 +1,125 @@
+* {
+    color: gold;
+}
+
+nav {
+    background-color: black;
+    padding: 0px !important;
+}
+
+.myBrand {
+    margin-right: 50px;
+    color: gold;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+nav a {
+    color: #9d01ff;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav .btn {
+    color: gold;
+    margin-left: 5px;
+}
+
+nav .btn:hover {
+    background-color: red;
+    color: gold;
+}
+
+nav ul li {
+    margin-left: 5px;
+}
+
+nav ul li:hover {
+    background-color: #9d01ff;
+}
+
+.active {
+    background-color: #9d01ff;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.mask ul {
+    list-style-type: none;
+}
+
+.mask aside {
+    padding-top: 10px;
+    background-color: #131c2e;
+}
+
+.mask .sidebar-menu {
+    padding-left: 0px;
+}
+
+.mask span, .mask path {
+    color: white;
+    font-weight: bold;
+}
+
+.mask .sidebar-list li>a {
+    color: #c86fff;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.mask .sidebar-list li>a {
+    display: block;
+}
+
+.mask .sidebar-list li>a:hover {
+    color: white;
+    background-color: #c86fff;
+}
+
+.mask main {
+    background-color: #283c5f;
+}
+
+.mask main .about {
+    margin-bottom: 10pt;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+}
+
+.mask main img {
+    height: 250px;
+    width: 260px;
+}
+
+.mask main p:first-of-type {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14pt;
+}
+
+
+footer {
+    background-color: #000;
+    padding: 15px;
+}
+
+footer .copyright, footer .copyright span {
+    color: #fff;
+    font-size: 16pt;
+}
+
+footer .copyright span {
+    color: #9d01ff;
+    font-weight: bold;
+}
