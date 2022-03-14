@@ -1,0 +1,390 @@
+/* @font-face {
+  font-family: "font1";
+  src: url(https://fonts.googleapis.com/css2?family=Amiri&display=swap);
+  /* src: url(https://colarts.uodiyala.edu.iq/uploads/Archive/Design/SultanMedium.ttf); 
+} */
+
+* {
+  direction: rtl;
+  font-family: 'Noto Kufi Arabic';
+  font-size: 16px;
+}
+
+.mask .myList .item, .mask .myList .myLink, .mask .myListSocial .itemmyListSocial, .myCopyRight span, .myCopyRight a {
+  font-family: "Amiri", serif;
+}
+
+.TeacherMask .cardTeacher .detials .Name, .TeacherMask .cardTeacher .detials .Location, .TeacherMask .TeacherPart {
+  font-family: "Lateef", cursive;
+}
+
+.TeacherMask .cardTeacher .detials .Name, .TeacherMask .TeacherPart {
+  font-size: 19pt;
+}
+
+.TeacherMask .cardTeacher .detials .Location {
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.TeacherMask .cardTeacher .detials .TecherLink a {
+  font-family: "Oswald", sans-serif;
+  font-size: 12pt;
+}
+
+.TeacherMask .cardTeacher .detials .TecherLink .About {
+  font-family: "Lateef", cursive;
+  font-weight: bold;
+}
+
+.mask {
+  direction: rtl;
+  padding: 10px;
+  background-color: #045661;
+  color: white;
+  font-weight: bold;
+}
+
+.mask .myList {
+  list-style-type: none;
+  padding-inline-start: 18px;
+}
+
+.mask .myList .item {
+  font-size: 14px;
+  text-align: right;
+  padding: 10px;
+}
+
+.mask .myList .item:hover {
+  color: #004b52;
+  background-color: #19e7e7;
+  border-radius: 10px;
+}
+
+.mask .myList .myLink {
+  color: white;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.mask .myList .myLink:hover {
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-style: double;
+  font-weight: bold;
+}
+
+.mask .myListSocial {
+  list-style-type: none;
+  padding-inline-start: 18px;
+  display: inline-flex;
+}
+
+.mask .myListSocial .itemmyListSocial {
+  margin-left: 10px;
+}
+
+.mask .myListSocial .itemmyListSocial img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+
+.mask .myListSocial .itemmyListSocial img:hover {
+  border: 3px solid rgb(253, 249, 5);
+}
+
+.mask .spanSocial {
+  display: block;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  text-align: right;
+}
+
+.myCopyRight span, .myCopyRight a {
+  font-size: 15px;
+}
+
+.myCopyRight {
+  background-color: #000000;
+  color: white;
+  margin: -10px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.myCopyRight a {
+  padding: 10px;
+  color: rgb(253, 249, 5);
+  text-decoration-line: none;
+  border-radius: 10px;
+}
+
+.myCopyRight a:hover {
+  background-color: white;
+  color: blue;
+  text-decoration-line: none;
+}
+
+@media (min-width: 576px) {
+  .mask {
+    width: 1320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mask {
+    width: 1320px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mask {
+    width: 1320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mask {
+    width: auto;
+  }
+}
+
+.mycol {
+  flex-grow: inherit;
+}
+
+.TeacherMask {
+  margin: -20px;
+  direction: rtl;
+  width: auto;
+}
+
+.TeacherMask .techerInfo {
+  background-color: teal;
+  padding: 14px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.TeacherMask .techerInfo .counter {
+  color: white;
+  border-radius: 10px;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.TeacherMask .cardTeacher {
+  float: right;
+  width: 242px;
+  background-color: rgb(17, 192, 192);
+  text-align: center;
+  border: 3px solid rgb(130, 248, 248);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.TeacherMask .cardTeacher:hover {
+  box-shadow: 0px 0px 10px 0px rgb(247, 25, 199);
+}
+
+.TeacherMask .cardTeacher .imgTecher {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 10px;
+}
+
+.TeacherMask .cardTeacher .imgTecher:hover {
+  border: 3px solid gold;
+}
+
+.TeacherMask .cardTeacher .detials {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.TeacherMask .cardTeacher .detials .Name {
+  margin-top: 25px;
+  padding-top: 10px;
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+.TeacherMask .cardTeacher .detials .Location {
+  color: black;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.TeacherMask .cardTeacher .detials .TecherLink {
+  background-color: teal;
+  display: block;
+  border-radius: 0px 0px 6px 6px;
+  padding: 5px;
+}
+
+.TeacherMask .cardTeacher .detials .TecherLink a {
+  border-radius: 0px 0px 6px 6px;
+  padding: 3px;
+  text-decoration-line: none;
+  color: white;
+  margin: 5px;
+}
+
+.TeacherMask .cardTeacher .detials .TecherLink .About {
+  border-radius: 0px 0px 6px 6px;
+  padding: 3px;
+  text-decoration-line: none;
+  color: white;
+  margin: 5px;
+}
+
+.TeacherMask .cardTeacher .detials .TecherLink a:hover {
+  background-color: white;
+  color: black;
+}
+
+.TeacherMask .TeacherPart {
+  padding-top: 20px;
+  color: #004b52;
+  font-weight: bold;
+  clear: both;
+  display: block;
+}
+
+.TeacherMask hr {
+  height: 4px;
+  margin-top: 0px;
+  background-color: teal;
+}
+
+.translated-ltr {
+  margin-top: -40px;
+}
+
+.translated-ltr {
+  margin-top: -40px;
+}
+
+.goog-te-banner-frame {
+  display: none;
+  margin-top: -20px;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+#google_translate_element select {
+  background-color: #00b8cc;
+  color: white;
+  height: 30px;
+  border: none;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+#google_translate_element option {
+  background-color: #00b8cc;
+  color: white;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+/* start edit in bootstrap classes */
+
+.panel-default>.panel-heading {
+  background-color: #00b8cc;
+}
+
+.panel-body {
+  padding: 0px;
+}
+
+.list-group {
+  padding: 5px 10px;
+  margin-bottom: 0px;
+}
+
+/* end edit in bootstrap classes */
+
+.platform {
+  width: 990px;
+  padding: 15px;
+}
+
+.platform .titlePage .title {
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+  font-size: 18pt;
+  color: #00b8cc;
+}
+
+.platform .titlePage hr {
+  height: 2px;
+  width: 700px;
+  margin-top: 8px;
+  background-color: #004b52;
+}
+
+/* .platform .draw{
+    background-color: #004B52;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+  } */
+
+.platform .sectionPage .title {
+  height: auto;
+  text-align: right;
+  font-size: 16pt;
+  color: #00b8cc;
+  display: block;
+}
+
+.platform .sectionPage .description {
+  text-align: right;
+  font-size: 10pt;
+  display: block;
+}
+
+.platform .panel-title .title {
+  color: rgb(255, 255, 255);
+  font-size: 14pt;
+}
+
+.list-group .list-group-item {
+  padding: 0px;
+}
+
+.list-group .list-group-item>a {
+  display: block;
+  padding: 8px 8px 8px;
+}
+
+.platform .profile .cardTeacher:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+}
+
+.profile .detials {
+  border-bottom: 10px solid #037781;
+}
+
+.articleShowCtrl .articleContent .contentText{
+	line-height: normal;
+	  font-family: 'Noto Kufi Arabic';
+}
